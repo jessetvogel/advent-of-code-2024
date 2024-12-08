@@ -5,6 +5,7 @@ mod day_4;
 mod day_5;
 mod day_6;
 mod day_7;
+mod day_8;
 
 fn main() {
     println!("[Day 01] [Puzzle 1]: {}", day_1::puzzle_1());
@@ -27,4 +28,7 @@ fn main() {
 
     println!("[Day 07] [Puzzle 1]: {}", day_7::puzzle_1());
     println!("[Day 07] [Puzzle 2]: {}", day_7::puzzle_2());
+
+    println!("[Day 08] [Puzzle 1]: {}", day_8::puzzle_1());
+    println!("[Day 08] [Puzzle 2]: {}", day_8::puzzle_2());
 }
